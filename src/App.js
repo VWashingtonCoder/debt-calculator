@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Debt Payoff Calculator</h1>
       </header>
+      <Form />
     </div>
   );
 }
